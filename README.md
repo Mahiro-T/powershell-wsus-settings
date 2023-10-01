@@ -1,0 +1,3 @@
+# PowerShellの設定を行うPowerShellスクリプト
+AWS ImageBuilder用に作成したが正常に動作しなかったためここに供養
+PowerShell単体では動作することは正常に確認済み
