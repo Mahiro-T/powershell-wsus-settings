@@ -1,3 +1,16 @@
-# PowerShellの設定を行うPowerShellスクリプト
-AWS ImageBuilder用に作成したが正常に動作しなかったためここに供養
-PowerShell単体では動作することは正常に確認済み
+# Fresh project
+
+Your new Fresh project is ready to go. You can follow the Fresh "Getting
+Started" guide here: https://fresh.deno.dev/docs/getting-started
+
+### Usage
+
+Make sure to install Deno: https://deno.land/manual/getting_started/installation
+
+Then start the project:
+
+```
+deno task start
+```
+
+This will watch the project directory and restart as necessary.
