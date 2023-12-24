@@ -13,9 +13,9 @@ jobs:
       - name: Install WSUS
         run: | 
           Install-WindowsFeature -Name UpdateServices, UpdateServices-WidDB, UpdateServices-Services, UpdateServices-RSAT, UpdateServices-API
-          New-Item "C:\wsustemp" -ItemType Directory
+          New-Item "C:\Users\runneradmin\wsustemp" -ItemType Directory
           Set-Location -Path "C:\Program Files\Update Services\Tools"
-          .\WsusUtil.exe postinstall CONTENT_DIR="C:\wsustemp"
+          .\WsusUtil.exe postinstall CONTENT_DIR="C:\Users\runneradmin\wsustemp"
 
   deploy:
     name: Deploy
